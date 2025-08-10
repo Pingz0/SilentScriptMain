@@ -29,7 +29,7 @@ Tab:AddTextbox({
             })
             task.wait(1)
             OrionLib:Destroy()
-            loadstring(game:HttpGet("https://raw.githubusercontent.com/Pingz0/SilentScripts/main/main.lua"))()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/Pingz0/SilentScripts/main/Main.lua"))()
         else
             OrionLib:MakeNotification({
                 Name = "Error",
